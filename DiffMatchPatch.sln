@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiffMatchPatch.Tests", "Dif
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DiffMatchPatch.PerformanceTest", "DiffMatchPatch.PerformanceTest\DiffMatchPatch.PerformanceTest.csproj", "{3BAE9782-26E1-4936-97D7-B5DCEC8F3B22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{13F1A296-35DA-4D31-97E5-AFA05FF168BD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestConsole", "TestConsole\TestConsole.csproj", "{13F1A296-35DA-4D31-97E5-AFA05FF168BD}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".TestsAndDemo", ".TestsAndDemo", "{9466366F-4692-4A40-A5AF-D219B82E6535}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -36,6 +38,11 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FE4EAA7A-2966-4AD7-84DF-1FCDD6C3D4C5} = {9466366F-4692-4A40-A5AF-D219B82E6535}
+		{3BAE9782-26E1-4936-97D7-B5DCEC8F3B22} = {9466366F-4692-4A40-A5AF-D219B82E6535}
+		{13F1A296-35DA-4D31-97E5-AFA05FF168BD} = {9466366F-4692-4A40-A5AF-D219B82E6535}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {E2AD8194-10D6-4F86-8BD2-B0D00A6FE7C5}

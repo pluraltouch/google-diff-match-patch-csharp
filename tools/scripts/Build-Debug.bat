@@ -1,0 +1,1 @@
+dotnet build ../../src/jazztuner.sln --configuration Debug
